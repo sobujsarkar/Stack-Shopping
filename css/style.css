@@ -41,6 +41,7 @@ p{
     width: 100%;
     background: #333333;
     color: #fff;
+     box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
 }
 .container {
     width: 60%;
@@ -52,6 +53,7 @@ p{
     display: flex;
     align-items: center;
     padding: 0.5rem;
+   
 }
 .nav__brand {
     display: flex;
@@ -75,4 +77,32 @@ p{
     width:20px;
     height: auto;
     cursor: pointer;
+}
+
+/* css for add item container  */
+.add-item-container{
+    box-shadow: 0 3px 2px rgba(0, 0, 0, .2);
+    margin-top: 2rem;
+    
+}
+.add-item__input {
+    width: 100%;
+    padding: 1rem 1rem;
+    background:#fff ;
+    display: flex;
+    height: auto;
+    /* align-items: center; */
+    
+}
+.add-item__icon {
+    width:16px;
+}
+.add-item__input-field{
+    width: 100%;
+    margin-left: 2rem;
+    border:none;
+    outline: none;
+    color: #333333;
+    font-size: 1rem;
+    
 }
